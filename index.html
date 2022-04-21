@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>mesto</title>
+    <link rel="stylesheet" href="./pages/index.css">
+</head>
+<body class="body">
+    <div class="page">
+        <div class="popup">
+            <img class="close-icon" src="./images/Close Icon.svg" alt="крестик">
+            <form class="form">
+                <h2 class="form__title">Редактировать профиль</h2>
+                    <input class="form__input form__input-name" type="text" id="name" value="Жак-Ив Кусто">
+                    <input class="form__input form__input-about" type="text" id="about" value="Исследователь океана">
+                    <button class="form__button" type="submit">Сохранить</button>
+            </form>
+        </div>
+        <header class="header">
+            <div class="header__logo"></div>
+            <div class="header__line"></div>
+        </header>
+        <div class="content">
+            <section class="profile">
+                <img class="profile__avatar" src="./images/avatar.jpg" alt="аватарка">
+                <div class="profile__info">
+                    <h1 class="profile__name">Жак-Ив Кусто</h1>
+                    <p class="profile__about">Исследователь океана</p>
+                    <img class="edit-button" src="./images/edit-button.svg" alt="кнопка редактировать">
+                </div>
+                <button class="add-button"></button>
+            </section>
+            <section class="places">
+                <div class="place">
+                    <img class="place__image" src="./images/Karachaevsk.jpg" alt="Карачаевск">
+                    <div class="place__sign">
+                        <p class="place__title">Карачаевск</p>
+                        <div class="place__like place__like_active"></div>
+                    </div>
+                </div>
+
+                <div class="place">
+                    <img class="place__image" src="./images/Mountain Elbrus.jpg" alt="Гора Эльбрус">
+                    <div class="place__sign">
+                        <p class="place__title">Гора Эльбрус</p>
+                        <div class="place__like"></div>
+                    </div>
+                </div>
+
+                <div class="place">
+                    <img class="place__image" src="./images/Dombay.jpg" alt="Домбай">
+                    <div class="place__sign">
+                        <p class="place__title">Домбай</p>
+                        <div class="place__like"></div>
+                    </div>
+                </div>
+
+                <div class="place">
+                    <img class="place__image" src="./images/Baikal.jpg" alt="Озеро Байкал">
+                    <div class="place__sign">
+                        <p class="place__title">Озеро Байкал</p>
+                        <div class="place__like"></div>
+                    </div>
+                </div>
+
+                <div class="place">
+                    <img class="place__image" src="./images/Blue Lagoon.jpg" alt="Голубая лагуна">
+                    <div class="place__sign">
+                        <p class="place__title">Голубая лагуна</p>
+                        <div class="place__like"></div>
+                    </div>
+                </div>
+
+                <div class="place">
+                    <img class="place__image" src="./images/Niagara Falls.jpg" alt="Ниагарский водопад">
+                    <div class="place__sign">
+                        <p class="place__title">Ниагарский водопад</p>
+                        <div class="place__like"></div>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <footer class="footer">
+            <p class="footer__copyright">© 2022 Mesto Russia</p>
+        </footer>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>

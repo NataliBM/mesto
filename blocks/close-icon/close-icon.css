@@ -1,0 +1,23 @@
+.close-icon {
+    margin: 10px;
+    max-width: 32px;
+    max-height: 32px;
+    position: relative;
+    bottom: 15px;
+    left: 240px;
+}
+
+.close-icon:hover {
+    opacity: 0.6;
+    transition: .5s ease;
+}
+
+@media screen and (max-width: 568px) {
+    .close-icon {
+        bottom: 0;
+        left: 130px;
+        max-width: 20px;
+        max-height: 20px;
+        order: 1;
+    }
+}

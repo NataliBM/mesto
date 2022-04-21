@@ -1,0 +1,36 @@
+.edit-button {
+    margin: 0;
+    max-width: 24px;
+    min-height: 24px;
+    position: relative;
+    left: 310px;
+    bottom: 70px;
+}
+
+.edit-button:hover {
+    opacity: 0.6;
+    transition: .5s ease;
+}
+
+@media screen and (max-width: 1140px) {
+    .edit-button {
+        left: 270px;
+        bottom: 68px;
+    }
+  }
+
+  @media screen and (max-width: 984px) {
+    .edit-button {
+        left: 220px;
+        bottom: 63px;
+    }
+  }
+
+@media screen and (max-width: 568px) {
+    .edit-button {
+        max-width: 18px;
+        min-height: 18px;
+        left: 245px;
+        bottom: 55px;
+    }
+}

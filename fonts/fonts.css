@@ -1,0 +1,26 @@
+@font-face {
+    font-family: 'Inter-Regular';
+    src: url(../Fonts_Inter/Inter/Inter-Regular/Inter-Regular.ttf) format("truetype"),
+    url(../Fonts_Inter/Inter/Inter-Regular/Inter-Regular.woff) format("woff"),
+    url(../Fonts_Inter/Inter/Inter-Regular/Inter-Regular.woff2) format("woff2");
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  @font-face {
+    font-family: 'Inter-Medium';
+    src: url(../Fonts_Inter/Inter/Inter-Medium/Inter-Medium.ttf) format("truetype"),
+    url(../Fonts_Inter/Inter/Inter-Medium/Inter-Medium.woff) format("woff"),
+    url(../Fonts_Inter/Inter/Inter-Medium/Inter-Medium.woff2) format("woff2");
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  @font-face {
+    font-family: 'Inter-Black';
+    src: url(../Fonts_Inter/Inter/Inter-Black/Inter-Black.ttf) format("truetype"),
+    url(../Fonts_Inter/Inter/Inter-Black/Inter-Black.woff) format("woff"),
+    url(../Fonts_Inter/Inter/Inter-Black/Inter-Black.woff2) format("woff2");
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
