@@ -3,7 +3,6 @@
     min-height: 100vh;
     background-color: rgba(0,0,0,0.5);
     overflow: hidden;
-    display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
