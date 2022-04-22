@@ -1,4 +1,6 @@
 .place__like {
+    background: none;
+    border: none;
     background-image: url(../../../images/like.svg);
     background-repeat: no-repeat;
     background-position: center center;

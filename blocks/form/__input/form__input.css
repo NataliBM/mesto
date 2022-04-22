@@ -1,4 +1,5 @@
 .form__input {
+    margin: 0;
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
@@ -8,6 +9,7 @@
     border-bottom: 1px solid #dbd8d7;
     outline: none;
     padding-bottom: 13px;
+    margin-bottom: 30px;
 }
 
 @media screen and (max-width: 568px) {
