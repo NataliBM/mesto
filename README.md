@@ -14,7 +14,7 @@
 
 **Ссылки**
 
-* [Посмотрите, на этот проект)](https://natalibm.github.io/russian-travel/)
+* [Посмотрите, на этот проект)](https://natalibm.github.io/mesto/)
 
 **Технологии**
 
